@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="bootstrap-datepicker/css/bootstrap-datepicker3.css">
+        <title>Eventos</title>
+</head>
+<body>
+    <!-------------------------------------------------------- Navbar -------------------------------------------------------->
+    <header>
+		<nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Cambiar Navegacion</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+           <a class="navbar-brand" href="index.html">Pizzería</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="contacto.html">Contactenos</a></li>
+                <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown">Horario<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Boostrap</a></li>
+                         <li><a href="">Django</a></li>
+                         <li><a href="">Python</a></li>
+                         <li><a href="">JQuery</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	</header>
+    <!-------------------------------------------------------- Navbar -------------------------------------------------------->
+
+    <div class="container redes">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">Facebook</a>
+            </div>
+               <div class="col-md-4">
+                <a href="#">Twitter</a>
+            </div>
+               <div class="col-md-4">
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </div>
+    <br>
+	 <!---------------------------------------------- Menú ---------------------------------------------->
+    
+    <div class="container contenido">
+        <div class="row"> 
+            <div class="col-md-6">
+                <img class="adaptar imgfiesta" src="img/fiesta.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+              <h2>Fiestas</h2>
+              <div class="content-event">
+              <p>Los niños podrán disfrutar de su día favorito pasándoselo en grande.</p>
+              <p>El Pizza Cumpleaños de tu hijo/a será una experiencia inolvidable junto a sus amigos.</p>
+              <p>Estará llena de grandes sorpresas: una divertida decoración, la animación de una azafata, juegos muy divertidos y adaptados a la edad de los pequeños, una deliciosa pizza, increíbles regalos y una zona reservada.</p>
+              </div>
+            </div>
+        </div> 
+        <div class="container">
+        <div class="row">
+         <h2 class="text-reserva">Reserve ahora:</h2>
+         <br>
+              <div class="col-md-6">
+                  <div class="col-md-4">
+                  <label for="nombre">Pizzería</label>
+                  </div>
+                    <div class="col-md-8">
+                      <select class="form-control">
+                                    <option>Sambil</option>
+                                    <option>Barrio obrero</option>
+                                    <option>Paramillo</option>
+                                </select>
+                    </div>
+               </div>
+             <div class="col-md-6">
+                   <div class="col-md-4">
+                      <label for="input-group">Fecha de Reserva:</label>
+                 </div>
+                 <div class="col-md-8" id="sandbox-container">
+                   <div class="input-group date">
+                      <input class="form-control" type="text">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                   </div>
+                 </div>
+             </div>
+        </div> 
+        <br>
+         <div class="row">
+             <div class="col-md-6">
+              <div class="form-group">
+                    <div class="col-md-4">
+                        <label for="nombre">Nombre:</label>
+                        </div>
+                        <div class="col-md-8">
+                            <input class="form-control" id="nombre" type="text" placeholder="Pedro">
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                 <div class="form-group">
+                    <div class="col-md-4">
+                        <label for="apellido">Apellido:</label>
+                        </div>
+                        <div class="col-md-8">
+                            <input class="form-control" id="nombre" type="text" placeholder="Perez">
+                        </div>
+                </div>
+            </div>
+        </div> 
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+                <div class="col-md-4">
+                        <label for="nombre">Teléfono:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input class="form-control" id="nombre" type="text" placeholder="1234-5678910">
+                    </div>
+                </div>
+           </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                <div class="col-md-4">
+                        <label for="nombre">Correo:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input class="form-control" id="nombre" type="text" placeholder="pedroperez@mail.com">
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <br>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <button class="btn botonrojo btnmargin">Reservar</button>
+        </div>
+        </div>
+</div>
+     <!---------------------------------------------- Menu ---------------------------------------------->
+<!--
+<script type="text/javascript">
+        $('#sandbox-container .input-group.date').datepicker({
+        autoclose: true
+    });
+    </script>-->
+    <footer style="margin-top: 30px;">
+        <div class="container">
+            <br>
+                <p>Pizzería 2015. Todos los derechos reservados. RIF J-12345678-9. Desarrollado por nosotros</p>
+            </br>
+        </div>
+    </footer>
+    
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>    
+    <script src="bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.az.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.bs.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.cy.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.en-GB.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.et.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.eu.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.fa.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.fo.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.fr-CH.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.gl.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.hy.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.it-CH.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.ka.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.kh.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.kk.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.mk.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.nl-BE.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.no.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.sq.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.sr.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.sr-latin.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.vi.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
+    <script src="bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" charset="UTF-8"></script>  
+    <script src="js/script.js"></script>    
+</body>
+</html>

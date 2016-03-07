@@ -1,0 +1,112 @@
+body{
+	background-color: #009966;
+}
+
+.navbar-default{
+width: 100%;
+margin-right: 0;
+background-color: #009966;
+margin-bottom: 0;
+border: 0;
+}
+
+.navbar-default .navbar-brand{
+	font-size: 48px;
+	color: #fff;
+	background-color: #ff0033;
+
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #fff;
+	background-color: #ff0033;
+}
+
+.navbar-default .navbar-nav > li > a{
+font-size: 36px;
+color: #fff;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+color: #fff;  /*Sets the text hover color on navbar*/
+background-color: #ff0033;
+}
+
+.botonrojo{
+	background-color: #ff0033;
+	color: #ffffff;
+}
+
+.adaptar{
+	width: 100%;
+}
+
+.margen{
+	width: 100%;
+	background-color: black;
+	margin-left: 0;
+}
+
+.redes{
+ 	width: 100%;
+ 	background-color: #f5f5f5;
+ }
+
+ .cf{
+ 	background-color: #333333;
+ }
+
+ .footer-basic-centered{
+	background-color: #009966;
+	/*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);*/
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+/*	padding: 45px;
+	margin-top: 80px;*/
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #fff;
+	font-size: 18px;
+	margin: 0;
+}
+.box-transparente{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0px 0px;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    margin: 10px;
+}
+.contenido{
+	background: #FFFFFF;
+	padding-bottom: 30px;
+}
+.content-event{
+	font-size: 18px;
+}
+.text-reserva{
+	margin-left: 30px;
+}
+.imgfiesta{
+	margin-top: 30px;
+}
+.btnmargin{
+	margin: 0px 515px;
+	width: 150px;
+	height:40px;
+	font-size: 20px;
+}
+.container.contenido h2{
+	margin-left: 20px;
+}
+.btnbebida{
+	margin-top: 10px;
+}
