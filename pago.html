@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title></title>
+    <title>Document</title>
+</head>
+<body>
+	
+    <!-------------------------------------------------------- Navbar -------------------------------------------------------->
+    <header>
+		<nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Cambiar Navegacion</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+           <a class="navbar-brand" href="index.html">Pizzería</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="contacto.html">Contactenos</a></li>
+                <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown">Horario<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Boostrap</a></li>
+                         <li><a href="">Django</a></li>
+                         <li><a href="">Python</a></li>
+                         <li><a href="">JQuery</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	</header>
+    <!-------------------------------------------------------- Navbar -------------------------------------------------------->
+
+    <div class="container redes">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">Facebook</a>
+            </div>
+               <div class="col-md-4">
+                <a href="#">Twitter</a>
+            </div>
+               <div class="col-md-4">
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </div>
+    <br>
+	<!---------------------------------------------- Menú ---------------------------------------------------------------->
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Datos de Envío</h2>
+                    <form action="" class="">
+                    <br>
+                    <div class="form-group">
+                        <label for="nombre">Nombre y Apellido:</label>
+                        <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="nombre">Telefono:</label>
+                        <input class="form-control" id="nombre" type="text" placeholder="Telefono">
+                    </div>
+            
+            
+                    <div class="form-group">
+                        <label for="mensaje">Dirección:</label>
+                        <textarea class="form-control" id="mensaje" placeholder="Dirección"></textarea>
+                    </div>            
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2>Datos de Pago</h2>
+                    <form action="" class="">
+                    <br>
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label for="nombre">Tarjeta de Crédito:</label>
+                        </div>
+                    <div class="col-md-6">
+                        <select class="form-control">
+                            <option>Visa</option>
+                            <option>Master Card</option>
+                        </select>
+                        </div>
+                    </div>
+                    <br><br>
+                    
+                    <div class="form-group">
+                        <div class="col-md-6">                            
+                            <label for="nombre">Fecha de Vencimiento:</label>
+                        </div>                        
+                        <div class="col-md-3">
+                            <select class="form-control">
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>    
+                        </div>
+                        
+                        <div class="col-md-3">
+                            <select class="form-control">
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                            </select>    
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label for="nombre">Numero de Tarjeta:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" id="nombre" type="text" placeholder="XXXX - XXXX - XXXX - XXXX">
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <label for="nombre">Codigo de Seguridad:</label>
+                        </div>
+                        <div class="col-md-2">
+                            <input class="form-control" id="nombre" type="text" placeholder="XXX">
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label for="nombre">Nombre impreso en la tarjeta:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label for="nombre">Cedula: </label>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" id="nombre" type="text" placeholder="12345678">
+                        </div>
+                    </div>
+                    <br><br>
+                    
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <label for="nombre">Telefono:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" id="nombre" type="text" placeholder="1234567">
+                        </div>
+                    </div>
+
+                    </form>                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12 text-center">
+                    <button class="btn botonrojo">Enviar</button>
+                </div>
+            </div>
+        </div>
+
+    <!---------------------------------------------- Menú ---------------------------------------------------------------->
+
+    <footer>
+        <div class="container">
+            <br>
+                <p>Pizzería 2015. Todos los derechos reservados. RIF J-12345678-9. Desarrollado por nosotros</p>
+            </br>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>    
+    <script src="js/script.js"></script>    
+</body>
+</html>
