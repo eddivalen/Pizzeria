@@ -208,3 +208,25 @@ background-color: #ff0033;
 	position: absolute;
 	margin-bottom: 100px;
 }
+.content-event{
+	font-size: 18px;
+}
+.contenido{
+	background: #FFFFFF;
+	padding-bottom: 30px;
+}
+ .imgfiesta{
+	margin-top: 30px
+	} 
+.btnmargin{
+	margin: 0px 515px;
+	width: 150px;
+	height:40px;
+	font-size: 20px;
+}
+ .container.contenido h2{
+	margin-left: 20px;
+}
+ .btnbebida{
+	margin-top: 10px;
+}
