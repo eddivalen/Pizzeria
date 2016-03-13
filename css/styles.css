@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot');
+    src:    url('../fonts/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
 	background-color: #009966;
 }
@@ -14,7 +25,17 @@ border: 0;
 	font-size: 48px;
 	color: #fff;
 	background-color: #ff0033;
+	margin-left: -100px;
+	border-radius: 50px;
+	padding-right: 100px;
+}
 
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.logo{
+	padding-left: 100px;
 }
 
 .navbar-default .navbar-brand:hover{
@@ -73,41 +94,92 @@ background-color: #ff0033;
 	font-size: 18px;
 	margin: 0;
 }
-.box-transparente{
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
-    background-color: rgba(0, 0, 0, 0.3);
-    background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: 0px 0px;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: auto auto;
-    margin: 10px;
+
+.negro{
+	background-color: black;
 }
-.contenido{
-	background: #FFFFFF;
-	padding-bottom: 30px;
+.rojo{
+	background-color: red;
+	border: solid 1px black;
+};
+
+.salad h2{
+	color: white;
+	background-color: white;
 }
-.content-event{
-	font-size: 18px;
+
+.redondo{
+	border-radius: 10px;
 }
-.text-reserva{
-	margin-left: 30px;
+
+.ordenar a{display: inline-block;
+		width: 150px;
+		height: 50px;
+		padding: 8px;
+		color: white;
+		border: 2px solid #ff0033;
+		background-color: #ff0033;
+		text-align: center;
+		text-decoration: none;
+		margin-left: 590px;
+		margin-right: 30px;
+		margin-top: 20px;
+		border-radius: 5px;
 }
-.imgfiesta{
-	margin-top: 30px;
+
+.justificar{ text-align: justify;
+
+
 }
-.btnmargin{
-	margin: 0px 515px;
-	width: 150px;
-	height:40px;
-	font-size: 20px;
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-.container.contenido h2{
-	margin-left: 20px;
+
+.icon-twitter:before {
+    content: "\e900";
 }
-<<<<<<< HEAD
+.icon-envelop:before {
+    content: "\e901";
+}
+.icon-mobile:before {
+    content: "\e902";
+}
+.icon-facebook2:before {
+    content: "\e903";
+}
+.icon-instagram:before {
+    content: "\e904";
+}
+.icon-local_pizza:before {
+    content: "\e905";
+}
+
+.redes a{
+	text-decoration: none;
+	font-size: 2em;
+	color: #333333;
+	margin-left: 10px;
+}
+
+.bajar{
+	padding-top: 15px;
+}
+
+.carousel-item{
+	position: relative;
+}
 
 .boton1{
 	text-align: center;
@@ -140,7 +212,7 @@ background-color: #ff0033;
 	font-size: 18px;
 }
 .contenido{
-	background: #FFFFFF;
+	background: #F5F5F5;
 	padding-bottom: 30px;
 }
  .imgfiesta{
@@ -156,8 +228,5 @@ background-color: #ff0033;
 	margin-left: 20px;
 }
  .btnbebida{
-=======
-.btnbebida{
->>>>>>> parent of 3a3360c... Ultima
 	margin-top: 10px;
 }

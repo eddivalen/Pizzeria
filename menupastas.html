@@ -8,9 +8,8 @@
         <title>Pastas</title>
 </head>
 <body>
-    <!-------------------------------------------------------- Navbar -------------------------------------------------------->
-    <header>
-		<nav class="navbar navbar-default">
+   <header>
+        <nav class="navbar navbar-default">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Cambiar Navegacion</span>
@@ -18,41 +17,54 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-           <a class="navbar-brand" href="index.html">Pizzería</a>
+           <a class="navbar-brand" href="index.html"><span class="logo">Pizzería</span></a>
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Menú</a></li>
-                <li><a href="#">Promociones</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="contacto.html">Contactenos</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
                 <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown">Horario<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">Boostrap</a></li>
-                         <li><a href="">Django</a></li>
-                         <li><a href="">Python</a></li>
-                         <li><a href="">JQuery</a></li>
+                        <li><a href="">Martes 07:00 PM - 11:00 PM</a></li>
+                         <li><a href="">Miercoles 07:00 PM - 11:00 PM</a></li>
+                         <li><a href="">Jueves 07:00 PM - 11:00 PM</a></li>
+                         <li><a href="">Viernes 07:00 PM - 11:00 PM</a></li>
+                         <li><a href="">Sabado 07:00 PM - 11:00 PM</a></li>
+                         <li><a href="">Domingo 07:00 PM - 11:00 PM</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </nav>
-	</header>
-    <!-------------------------------------------------------- Navbar -------------------------------------------------------->
+    </header>
 
     <div class="container redes">
+        
         <div class="row">
-            <div class="col-md-4">
-                <a href="#">Facebook</a>
+
+            <div class="col-md-3">
+                <h3><span class="icon-mobile"></span> +581231234567</h3>
             </div>
-               <div class="col-md-4">
-                <a href="#">Twitter</a>
+
+            <div class="col-md-3">
+                <h3><span class="icon-local_pizza"></span> 35 - 40 mins aprox</h3>
             </div>
-               <div class="col-md-4">
-                <a href="#">Instagram</a>
+            
+            <div class="col-md-3">
+                <h3><span class="icon-envelop"></span> pizza@mail.com</h3>
             </div>
+
+            <div class="col-md-3 bajar">
+                <a href="#"><span class="icon-facebook2"></span></a>
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+            </div>
+        
         </div>
+    
     </div>
     <br>
 	 <!---------------------------------------------- Menú ---------------------------------------------->
@@ -78,7 +90,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <button class="btn botonrojo adaptar">Ordenar</button>
+                        <a href="pago.html" class="btn botonrojo adaptar">Ordenar</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +114,7 @@
                 </div>
                 <div class="row">
                      <div class="col-md-6">
-                        <button class="btn botonrojo adaptar">Ordenar</button>
+                         <a href="pago.html" class="btn botonrojo adaptar">Ordenar</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +139,7 @@
                 </div>
                 <div class="row">
                        <div class="col-md-6">
-                        <button class="btn botonrojo adaptar">Ordenar</button>
+                         <a href="pago.html" class="btn botonrojo adaptar">Ordenar</a>
                     </div>
                 </div>
             </div>
@@ -151,7 +163,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <button class="btn botonrojo adaptar">Ordenar</button>
+                         <a href="pago.html" class="btn botonrojo adaptar">Ordenar</a>
                     </div>
                 </div>
             </div>
@@ -160,12 +172,9 @@
     <br>  
      <!---------------------------------------------- Menu ---------------------------------------------->
 
-    <footer>
-        <div class="container">
-            <br>
-                <p>Pizzería 2015. Todos los derechos reservados. RIF J-12345678-9. Desarrollado por nosotros</p>
-            </br>
-        </div>
+    <footer class="footer-basic-centered">
+        <br><br>
+        <p class="footer-company-name">Pizzería 2015. Todos los derechos reservados &copy;</p>
     </footer>
 
 

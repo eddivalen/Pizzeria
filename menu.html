@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/styles.css">
-        <title></title>
-    <title>Document</title>
+    <title>Menú</title>
 </head>
 <body>
 	
     <!-------------------------------------------------------- Navbar -------------------------------------------------------->
     <header>
-		<nav class="navbar navbar-default">
+        <nav class="navbar navbar-default">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Cambiar Navegacion</span>
@@ -20,18 +19,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-           <a class="navbar-brand" href="index.html">Pizzería</a>
+           <a class="navbar-brand" href="index.html"><span class="logo">Pizzería</span></a>
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Menú</a></li>
-                <li><a href="#">Promociones</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="contacto.html">Contactenos</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
                 <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown">Horario<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                         <li><a href="">Martes 07:00 PM - 11:00 PM</a></li>
+                        <li><a href="">Martes 07:00 PM - 11:00 PM</a></li>
                          <li><a href="">Miercoles 07:00 PM - 11:00 PM</a></li>
                          <li><a href="">Jueves 07:00 PM - 11:00 PM</a></li>
                          <li><a href="">Viernes 07:00 PM - 11:00 PM</a></li>
@@ -42,8 +41,7 @@
             </ul>
         </div>
     </nav>
-	</header>
-    <!-------------------------------------------------------- Navbar -------------------------------------------------------->
+    </header>
 
     <div class="container redes">
         
@@ -73,7 +71,7 @@
     <br>
 	<!---------------------------------------------- Menú ---------------------------------------------------------------->
         
-        <div class="container">
+        <div class="container contenido">
 
 
          <div class="row">
@@ -87,7 +85,7 @@
             <div class="col-md-6">
                 <div class="col-md-12">
                     <h2>Bebidas</h2>
-                    <img src="img/d1.jpg" class="adaptar redondo" alt="">
+                    <a href="menubebidas.html"><img src="img/d1.jpg" class="adaptar redondo" alt=""></a>
                 </div>
             </div>
         </div>
@@ -96,14 +94,14 @@
              <div class="col-md-6">   
                 <div class="col-md-12">
                     <h2>Pastas</h2>
-                    <img src="img/pa1.jpg" class="adaptar redondo" alt="">
+                    <a href="menupastas.html"><img src="img/pa1.jpg" class="adaptar redondo" alt=""></a>
                 </div>
              </div>
             
             <div class="col-md-6">
                 <div class="col-md-12">
                     <h2>Ensaladas</h2>
-                    <img src="img/e1.jpg" class="adaptar redondo" alt="">
+                    <a href="menuensaladas.html"><img src="img/e1.jpg" class="adaptar redondo" alt=""></a>
                 </div>
             </div>
         </div>
@@ -111,19 +109,16 @@
         <div class="row">
             <div class="col-md-6">   
                 <h2>Postres</h2>
-                <img src="img/manjar.jpg" class="adaptar redondo" alt="">
+                <a href="menupostres.html"><img src="img/manjar.jpg" class="adaptar redondo" alt=""></a>
             </div>
         </div>
 
         </div>
     <!---------------------------------------------- Menú ---------------------------------------------------------------->
 
-    <footer>
-        <div class="container">
-            <br>
-                <p>Pizzería 2015. Todos los derechos reservados. RIF J-12345678-9. Desarrollado por nosotros</p>
-            </br>
-        </div>
+    <footer class="footer-basic-centered">
+        <br><br>
+        <p class="footer-company-name">Pizzería 2015. Todos los derechos reservados &copy;</p>
     </footer>
 
 
