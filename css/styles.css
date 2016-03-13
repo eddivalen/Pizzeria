@@ -97,6 +97,7 @@ background-color: #ff0033;
 
 .negro{
 	background-color: black;
+<<<<<<< HEAD
 }
 .rojo{
 	background-color: red;
@@ -107,6 +108,18 @@ background-color: #ff0033;
 	color: white;
 	background-color: white;
 }
+=======
+}
+.rojo{
+	background-color: red;
+	border: solid 1px black;
+};
+
+.salad h2{
+	color: white;
+	background-color: white;
+}
+>>>>>>> bd520e20eae8375d0437b9307203b8f29af38b08
 
 .redondo{
 	border-radius: 10px;
@@ -212,7 +225,11 @@ background-color: #ff0033;
 	font-size: 18px;
 }
 .contenido{
+<<<<<<< HEAD
 	background: #FFFFFF;
+=======
+	background: #F5F5F5;
+>>>>>>> bd520e20eae8375d0437b9307203b8f29af38b08
 	padding-bottom: 30px;
 }
  .imgfiesta{
