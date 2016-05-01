@@ -13,10 +13,6 @@ body{
 	background-color: #009966;
 }
 
-.centrar_texto{
-	text-align: center;
-}
-
 .navbar-default{
 width: 100%;
 margin-right: 0;
@@ -48,7 +44,7 @@ border: 0;
 }
 
 .navbar-default .navbar-nav > li > a{
-font-size: 24px;
+font-size: 36px;
 color: #fff;  /*Sets the text hover color on navbar*/
 }
 
@@ -60,7 +56,6 @@ background-color: #ff0033;
 .botonrojo{
 	background-color: #ff0033;
 	color: #ffffff;
-	font-size:18px;
 }
 
 .adaptar{
@@ -129,10 +124,11 @@ background-color: #ff0033;
 		margin-right: 30px;
 		margin-top: 20px;
 		border-radius: 5px;
-		font-size: 20px;
 }
 
 .justificar{ text-align: justify;
+
+
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -232,13 +228,4 @@ background-color: #ff0033;
 }
  .btnbebida{
 	margin-top: 10px;
-}
-
-.reporte-titulo{
-	color: #fff;
-	text-align: center;
-}
-
-@media screen and (min-width: 0px) and (max-width: 1024px) {
- 	.redes{ display: none; }
 }
